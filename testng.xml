@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation tests">
+    <listeners>
+        <listener class-name="org.example.listener.CustomTestResultListener"/>
+    </listeners>
+
+    <test name="3P Server Tests">
+        <classes>
+            <class name="org.example.TestRunner"/>
+        </classes>
+    </test>
+</suite>
